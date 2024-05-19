@@ -17,5 +17,5 @@ Pose generator works by taking a camera capture of the screen and processing it 
 #### Turret Control
 ### Materials
 - Arduino UNO
-- rhvzdhvs
+- rhvzdhv
 ### Challenges Encountered
