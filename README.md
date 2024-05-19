@@ -38,6 +38,15 @@ The end page displays the score and offers a button to return to the main menu.
 ### How does it work?
 #### Turret Control
 ### Materials
-- Arduino UNO
-- rhvzdhvs
+- Cardboard
+- 1x 3D printer
+- 1x DC motor
+- 1x 9V battery
+- 1x Keyestudio 8x8 Dot Matrix
+- Foam golf balls
+- Wires (M-M, M-F)
+- 1x Arduino UNO board
+- 1x Sunfounder Clutch Gear Servo
+- 1x Songle relay circuit
+- 1x Elegoo breadboard
 ### Challenges Encountered
