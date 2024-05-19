@@ -33,7 +33,7 @@ The end page displays the score and offers a button to return to the main menu.
 - win32api <br><br>
 ### Challenges Encountered
 1. Landmark coordinates out of range
-    1. Landmarks are supposed to be a decimal number from 0 to 1. However we were getting negativve numbers and numbers greater than 1, so we experienced many issues with range
+    1. Landmarks are supposed to be a decimal number from 0 to 1. However we were getting negative numbers and numbers greater than 1, so we experienced many issues with range
     2. When landmarks are off screen, mediapipe has an approximation of where they are leading to results that do not fit the postcondition
 
 2. Serial communication
