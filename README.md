@@ -2,15 +2,15 @@
 
 ## Part 1: Software 
 ### How does it work?
-#### Pose Generator
-##### Libraries used
-- cv2
-- mediapipe
+**Pose Generator**<br>
+    <p>Pose generator works by taking a camera capture of the screen and processing it with the object <code>Pose from mediapipe. An image is created with a segmentation mask overlay of the human subject. The inside of the subject is rewritten to black while everything else is white. This segmented image is saved as a pose</code></p>
+    Libraries used <br>
+- cv2mediapipe
 - numpy
 - os
-<p>Pose generator works by</p>
-#### Main Pew Pew Simulation
-### Challenges Encountered<br>
+- win32api
+#### Main Pew Pew Simulation <br>
+### Challenges Encountered<br><br>
 
 
 ## Part 2: Hardware
