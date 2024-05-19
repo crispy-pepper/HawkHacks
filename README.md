@@ -31,8 +31,18 @@ The end page displays the score and offers a button to return to the main menu.
 - serial
 - playsound
 - win32api <br><br>
-### Challenges Encountered<br><br><br>
+### Challenges Encountered
+1. Landmark coordinates out of range
+    1. Landmarks are supposed to be a decimal number from 0 to 1. However we were getting negativve numbers and numbers greater than 1, so we experienced many issues with range
+    2. When landmarks are off screen, mediapipe has an approximation of where they are leading to results that do not fit the postcondition
 
+2. Serial communication
+    1. When trying to get our Arduino circuit and Python program to communicate through USB, we ran into many errors where the port was busy or connected improperly
+    2. When we were first trying to send signal from the Python program to the Arduino program, the signal sent improperly as we needed to add a delay after opening the serial port to properly send signals
+
+These are just two examples as we had *way* too many bugs and issues
+
+<br><br><br>
 
 ## Part 2: Hardware
 ### How does it work?
