@@ -36,7 +36,9 @@ The end page displays the score and offers a button to return to the main menu.
 
 ## Part 2: Hardware
 ### How does it work?
-#### Turret Control
+
+Balls are put into the loader, and are fitted to be pushed by the servo motor into the barrel. After a signal from the computer, the Arduino board sends a signal command through the relay module to power on the DC motor. It also powers the servo motor and the dot matrix module to change the facial expression. The mechanism attached to the servo allows one ball to be pushed at a time, and then immediately sequence into the next. After entering the barrel, it is spun forward by the DC motor, being shot at the player.
+
 ### Materials
 - Cardboard
 - 1x 3D printer
@@ -50,3 +52,14 @@ The end page displays the score and offers a button to return to the main menu.
 - 1x Songle relay circuit
 - 1x Elegoo breadboard
 ### Challenges Encountered
+
+1. Designing a mechanism to effectively store and launch balls.
+ a) Proper DC motor selection and postioning on the barrel, taking into consideration the number of motors to use, maintaining a steady connection with the ball, and optimizing the spin of the ball for travel time.
+ b) Loading up multiple balls within the system; designing a mechanism to both push balls into the barrel, and allowing the next one in.
+ c) Pushing balls into the barrel with the servo. Had many issues with snugly fitting balls within the barrel, while still being wide enough to not cause jamming.
+
+
+2. Issues with electrical wiring.
+ a) Powering motors with adequate supply of voltage, seperate from the servo motor. Another circuit system was made, while still being connected to the same breadboard/Arduino board.
+ b) Implementing a relay module into the circuit, which allows a signal to be sent from the Arduino to power on the DC motor. 
+ c) Overall issues with sorting out breadboard connections; many wires led to a confusing and unorganized wire system.
