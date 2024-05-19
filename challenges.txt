@@ -1,0 +1,11 @@
+1. Designing a mechanism to effectively store and launch balls
+ a) Proper DC motor selection and postioning
+ b) Loading up multiple balls
+ c) Pushing balls into the barrel with the servo
+
+2. Issues with electrical wiring
+ a) Powering motors with adequate supply of voltage
+ b) Implementing a relay module into the circuit
+ c) Overall issues with sorting out breadboard connections
+
+3. 
