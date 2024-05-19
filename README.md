@@ -4,7 +4,7 @@
 ### How does it work? <br>
 Pose generator works by taking a camera capture of the screen and processing it with the object <code>Pose</code> from mediapipe. An image is created with a segmentation mask overlay of the human subject. The inside of the subject is rewritten to black while everything else is white. This segmented image is saved as a pose.
 #### Libraries used
-- cv
+- cv2
 - 2mediapipe
 - numpy
 - os
@@ -30,8 +30,8 @@ The end page displays the score and offers a button to return to the main menu.
 - os
 - serial
 - playsound
-- win32api
-### Challenges Encountered<br><br>
+- win32api <br><br>
+### Challenges Encountered<br><br><br>
 
 
 ## Part 2: Hardware
