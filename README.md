@@ -53,13 +53,13 @@ Balls are put into the loader, and are fitted to be pushed by the servo motor in
 - 1x Elegoo breadboard
 ### Challenges Encountered
 
-1. Designing a mechanism to effectively store and launch balls.
- a) Proper DC motor selection and postioning on the barrel, taking into consideration the number of motors to use, maintaining a steady connection with the ball, and optimizing the spin of the ball for travel time.
- b) Loading up multiple balls within the system; designing a mechanism to both push balls into the barrel, and allowing the next one in.
- c) Pushing balls into the barrel with the servo. Had many issues with snugly fitting balls within the barrel, while still being wide enough to not cause jamming.
+#### 1. Designing a mechanism to effectively store and launch balls.
+a) Proper DC motor selection and postioning on the barrel, taking into consideration the number of motors to use, maintaining a steady connection with the ball, and optimizing the spin of the ball for travel time.
+b) Loading up multiple balls within the system; designing a mechanism to both push balls into the barrel, and allowing the next one in.
+c) Pushing balls into the barrel with the servo. Had many issues with snugly fitting balls within the barrel, while still being wide enough to not cause jamming.
 
 
-2. Issues with electrical wiring.
- a) Powering motors with adequate supply of voltage, seperate from the servo motor. Another circuit system was made, while still being connected to the same breadboard/Arduino board.
- b) Implementing a relay module into the circuit, which allows a signal to be sent from the Arduino to power on the DC motor. 
- c) Overall issues with sorting out breadboard connections; many wires led to a confusing and unorganized wire system.
+#### 2. Issues with electrical wiring.
+a) Powering motors with adequate supply of voltage, seperate from the servo motor. Another circuit system was made, while still being connected to the same breadboard/Arduino board.
+b) Implementing a relay module into the circuit, which allows a signal to be sent from the Arduino to power on the DC motor. 
+c) Overall issues with sorting out breadboard connections; many wires led to a confusing and unorganized wire system.
