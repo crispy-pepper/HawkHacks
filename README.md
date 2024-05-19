@@ -50,3 +50,12 @@ The end page displays the score and offers a button to return to the main menu.
 - 1x Songle relay circuit
 - 1x Elegoo breadboard
 ### Challenges Encountered
+1. Designing a mechanism to effectively store and launch balls.
+    1. Proper DC motor selection and postioning on the barrel, taking into consideration the number of motors to use, maintaining a steady connection with the ball, and optimizing the spin of the ball for travel time.
+    2. Loading up multiple balls within the system; designing a mechanism to both push balls into the barrel, and allowing the next one in.
+    3. Pushing balls into the barrel with the servo. Had many issues with snugly fitting balls within the barrel, while still being wide enough to not cause jamming.
+
+2. Issues with electrical wiring.
+    1. Powering motors with adequate supply of voltage, seperate from the servo motor. Another circuit system was made, while still being connected to the same breadboard/Arduino board.
+    2. Implementing a relay module into the circuit, which allows a signal to be sent from the Arduino to power on the DC motor. 
+Overall issues with sorting out breadboard connections; many wires led to a confusing and unorganized wire system.
